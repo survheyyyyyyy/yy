@@ -1,0 +1,379 @@
+{
+  "title": "Survei Kebutuhan Aplikasi Pendukung Penelitian Tafsir Al-Qur'an",
+  "description": "Survei ini bertujuan mengetahui kebutuhan mahasiswa Ilmu Al-Qur'an dan Tafsir dalam mencari referensi dan menguatkan pemahaman materi tafsir. Jawaban Anda hanya digunakan untuk keperluan penelitian dan tidak ada jawaban benar atau salah. Mohon isi sesuai kondisi Anda yang sebenarnya.",
+  "categories": [
+    {
+      "id": "A",
+      "title": "Profil Responden"
+    },
+    {
+      "id": "B",
+      "title": "Cara Belajar & Mencari Referensi"
+    },
+    {
+      "id": "C",
+      "title": "Kendala yang Dihadapi"
+    },
+    {
+      "id": "D",
+      "title": "Pengalaman Media Digital"
+    },
+    {
+      "id": "E",
+      "title": "Kebutuhan & Harapan Aplikasi"
+    }
+  ],
+  "scales": {
+    "kemampuan": [
+      {
+        "label": "Sangat kurang",
+        "value": 1
+      },
+      {
+        "label": "Kurang",
+        "value": 2
+      },
+      {
+        "label": "Cukup",
+        "value": 3
+      },
+      {
+        "label": "Baik",
+        "value": 4
+      },
+      {
+        "label": "Sangat baik",
+        "value": 5
+      }
+    ],
+    "kendala": [
+      {
+        "label": "Tidak pernah",
+        "value": 1
+      },
+      {
+        "label": "Jarang",
+        "value": 2
+      },
+      {
+        "label": "Kadang-kadang",
+        "value": 3
+      },
+      {
+        "label": "Sering",
+        "value": 4
+      },
+      {
+        "label": "Selalu",
+        "value": 5
+      }
+    ],
+    "membantu": [
+      {
+        "label": "Sangat tidak membantu",
+        "value": 1
+      },
+      {
+        "label": "Kurang membantu",
+        "value": 2
+      },
+      {
+        "label": "Cukup membantu",
+        "value": 3
+      },
+      {
+        "label": "Membantu",
+        "value": 4
+      },
+      {
+        "label": "Sangat membantu",
+        "value": 5
+      }
+    ],
+    "kepentingan": [
+      {
+        "label": "Tidak penting",
+        "value": 1
+      },
+      {
+        "label": "Kurang penting",
+        "value": 2
+      },
+      {
+        "label": "Cukup penting",
+        "value": 3
+      },
+      {
+        "label": "Penting",
+        "value": 4
+      },
+      {
+        "label": "Sangat penting",
+        "value": 5
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "category": "Profil Responden",
+      "question": "Saat ini Anda berada di semester berapa?",
+      "type": "single",
+      "required": true,
+      "options": ["Semester 1–2", "Semester 3–4", "Semester 5–6", "Semester 7–8", "Semester 9 ke atas"]
+    },
+    {
+      "id": "Q02",
+      "category": "Profil Responden",
+      "question": "Pada tahap manakah penelitian atau tugas tafsir Anda saat ini?",
+      "type": "single",
+      "required": true,
+      "options": ["Belum memulai", "Menyusun proposal / mencari tema", "Sedang mengerjakan penelitian atau skripsi", "Sudah selesai"]
+    },
+    {
+      "id": "Q03",
+      "category": "Profil Responden",
+      "question": "Perangkat apa yang paling sering Anda gunakan untuk mencari referensi? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": ["Handphone", "Laptop / PC", "Tablet", "Lainnya"]
+    },
+    {
+      "id": "Q04",
+      "category": "Profil Responden",
+      "question": "Bagaimana kemampuan Anda membaca kitab tafsir berbahasa Arab?",
+      "type": "scale",
+      "required": true,
+      "scale": "kemampuan"
+    },
+    {
+      "id": "Q05",
+      "category": "Cara Belajar & Mencari Referensi",
+      "question": "Sumber apa yang biasa Anda gunakan untuk mencari penafsiran ayat? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": ["Kitab tafsir cetak", "Maktabah Syamilah / Shamela", "Aplikasi tafsir di HP", "Situs web tafsir", "YouTube / rekaman kajian", "Jurnal dan skripsi", "Lainnya"]
+    },
+    {
+      "id": "Q06",
+      "category": "Cara Belajar & Mencari Referensi",
+      "question": "Seberapa sering Anda mencari referensi tafsir?",
+      "type": "single",
+      "required": true,
+      "options": ["Hampir setiap hari", "Beberapa kali dalam seminggu", "Beberapa kali dalam sebulan", "Jarang sekali"]
+    },
+    {
+      "id": "Q07",
+      "category": "Cara Belajar & Mencari Referensi",
+      "question": "Bagaimana cara Anda mencatat dan menyimpan kutipan? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": ["Buku catatan", "Microsoft Word / Google Docs", "Zotero / Mendeley", "Catatan di HP", "Tidak mencatat secara khusus", "Lainnya"]
+    },
+    {
+      "id": "Q08",
+      "category": "Cara Belajar & Mencari Referensi",
+      "question": "Bagaimana cara Anda menguatkan pemahaman terhadap materi tafsir? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": ["Merangkum materi", "Berdiskusi dengan teman atau dosen", "Mengerjakan latihan atau kuis", "Membaca ulang kitab", "Menonton atau mendengarkan kajian", "Lainnya"]
+    },
+    {
+      "id": "Q09",
+      "category": "Kendala yang Dihadapi",
+      "question": "Seberapa sering Anda sulit menemukan penafsiran suatu ayat dengan cepat?",
+      "type": "scale",
+      "required": true,
+      "scale": "kendala"
+    },
+    {
+      "id": "Q10",
+      "category": "Kendala yang Dihadapi",
+      "question": "Seberapa sering Anda kesulitan membandingkan penafsiran antar-mufasir?",
+      "type": "scale",
+      "required": true,
+      "scale": "kendala"
+    },
+    {
+      "id": "Q11",
+      "category": "Kendala yang Dihadapi",
+      "question": "Seberapa sering bahasa Arab pada kitab tafsir menyulitkan Anda?",
+      "type": "scale",
+      "required": true,
+      "scale": "kendala"
+    },
+    {
+      "id": "Q12",
+      "category": "Kendala yang Dihadapi",
+      "question": "Seberapa sering Anda kesulitan menelusuri asbabun nuzul, munasabah, atau makna kosakata ayat?",
+      "type": "scale",
+      "required": true,
+      "scale": "kendala"
+    },
+    {
+      "id": "Q13",
+      "category": "Kendala yang Dihadapi",
+      "question": "Seberapa sering Anda ragu terhadap keabsahan sumber tafsir yang ditemukan di internet?",
+      "type": "scale",
+      "required": true,
+      "scale": "kendala"
+    },
+    {
+      "id": "Q14",
+      "category": "Kendala yang Dihadapi",
+      "question": "Seberapa sering Anda kesulitan menulis kutipan dan catatan kaki dari kitab tafsir?",
+      "type": "scale",
+      "required": true,
+      "scale": "kendala"
+    },
+    {
+      "id": "Q15",
+      "category": "Kendala yang Dihadapi",
+      "question": "Adakah kendala lain yang sering Anda alami saat mempelajari atau meneliti tafsir?",
+      "type": "textarea",
+      "required": false,
+      "placeholder": "Ceritakan kendala Anda (boleh dikosongkan)..."
+    },
+    {
+      "id": "Q16",
+      "category": "Pengalaman Media Digital",
+      "question": "Apakah Anda pernah menggunakan aplikasi atau situs tafsir digital?",
+      "type": "single",
+      "required": true,
+      "options": ["Pernah", "Belum pernah"]
+    },
+    {
+      "id": "Q17",
+      "category": "Pengalaman Media Digital",
+      "question": "Aplikasi atau situs apa yang pernah Anda gunakan? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": ["Qur'an Kemenag", "Quran.com", "Tafsir Web", "Maktabah Syamilah / Shamela", "Lainnya"],
+      "showIf": {
+        "id": "Q16",
+        "equals": "Pernah"
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "Pengalaman Media Digital",
+      "question": "Seberapa membantu aplikasi atau situs tersebut untuk keperluan penelitian tafsir?",
+      "type": "scale",
+      "required": true,
+      "scale": "membantu",
+      "showIf": {
+        "id": "Q16",
+        "equals": "Pernah"
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "Pengalaman Media Digital",
+      "question": "Apa kekurangan aplikasi atau situs tersebut menurut Anda?",
+      "type": "textarea",
+      "required": false,
+      "showIf": {
+        "id": "Q16",
+        "equals": "Pernah"
+      },
+      "placeholder": "Tuliskan kekurangannya..."
+    },
+    {
+      "id": "Q20",
+      "category": "Pengalaman Media Digital",
+      "question": "Apa alasan Anda belum menggunakan aplikasi atau situs tafsir digital?",
+      "type": "single",
+      "required": true,
+      "options": ["Belum mengetahui adanya aplikasi tersebut", "Merasa belum membutuhkan", "Keterbatasan kuota atau perangkat", "Tampilannya sulit dipahami", "Lainnya"],
+      "showIf": {
+        "id": "Q16",
+        "equals": "Belum pernah"
+      }
+    },
+    {
+      "id": "Q21",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Fitur apa saja yang Anda butuhkan dalam aplikasi tafsir untuk penelitian? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": [
+        "Pencarian ayat berdasarkan tema atau kata kunci",
+        "Tafsir beberapa kitab ditampilkan berdampingan",
+        "Perbandingan penafsiran antar-mufasir",
+        "Asbabun nuzul dan munasabah ayat",
+        "Glosarium istilah ulumul Qur'an dan tafsir",
+        "Catatan dan penanda (highlight) pribadi",
+        "Kutipan dan catatan kaki otomatis",
+        "Kuis dan latihan penguatan materi",
+        "Mode offline",
+        "Lainnya"
+      ]
+    },
+    {
+      "id": "Q22",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Dari fitur-fitur tersebut, mana yang paling Anda butuhkan?",
+      "type": "single",
+      "required": true,
+      "options": [
+        "Pencarian ayat berdasarkan tema atau kata kunci",
+        "Tafsir beberapa kitab ditampilkan berdampingan",
+        "Perbandingan penafsiran antar-mufasir",
+        "Asbabun nuzul dan munasabah ayat",
+        "Glosarium istilah ulumul Qur'an dan tafsir",
+        "Catatan dan penanda (highlight) pribadi",
+        "Kutipan dan catatan kaki otomatis",
+        "Kuis dan latihan penguatan materi",
+        "Mode offline"
+      ]
+    },
+    {
+      "id": "Q23",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Seberapa penting fitur kuis dan latihan untuk menguatkan pemahaman materi tafsir?",
+      "type": "scale",
+      "required": true,
+      "scale": "kepentingan"
+    },
+    {
+      "id": "Q24",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Seberapa penting aplikasi yang bisa dipakai tanpa internet (offline)?",
+      "type": "scale",
+      "required": true,
+      "scale": "kepentingan"
+    },
+    {
+      "id": "Q25",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Dalam bentuk apa aplikasi ini paling nyaman Anda gunakan?",
+      "type": "single",
+      "required": true,
+      "options": ["Aplikasi Android", "Aplikasi iOS", "Situs web (dibuka lewat browser)", "Semuanya"]
+    },
+    {
+      "id": "Q26",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Bahasa apa yang Anda inginkan pada penjelasan di dalam aplikasi? (boleh lebih dari satu)",
+      "type": "multiple",
+      "required": true,
+      "options": ["Indonesia", "Arab", "Inggris"]
+    },
+    {
+      "id": "Q27",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Bersediakah Anda ikut menguji aplikasi ini jika sudah selesai dikembangkan?",
+      "type": "single",
+      "required": true,
+      "options": ["Bersedia", "Mungkin bersedia", "Tidak bersedia"]
+    },
+    {
+      "id": "Q28",
+      "category": "Kebutuhan & Harapan Aplikasi",
+      "question": "Saran atau harapan lain untuk aplikasi tafsir yang akan dikembangkan?",
+      "type": "textarea",
+      "required": false,
+      "placeholder": "Tuliskan saran Anda (boleh dikosongkan)..."
+    }
+  ]
+}
